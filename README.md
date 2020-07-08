@@ -24,5 +24,35 @@ The above command runs MySQL server in a detached mode
 # Create schema(database)
 
     mysql> create database companydb;
+# User db , Create e, Insert,Delete, Drop  table
+
+    # Use database
+    use companydb;
+    # Create table
+    CREATE TABLE customers (name VARCHAR(255), address VARCHAR(255));
+    # Insert into table
+    INSERT INTO customers (name, address) VALUES ('Facebook Inc', '1 Hacker Way');
+    # Select from table
+    SELECT * FROM customers;
+    # Delete rows from table
+    DELETE FROM customers WHERE address = '1 Hacker Way';
+    # Drop Table
+    DROP TABLE customers;
+    # Drop Database
+    DROP DATABASE companydb;
+
+# Stop mysql server
+
+    docker-compose stop
+    # This will not delete persistence
+
+# Start mysql server
+
+    docker-compose start
+
+# Uninstall or Destroy MySQL server
+The below command will delete mysqldb and delete persistent volumes
+    docker-compose destroy -v
+
 
 
