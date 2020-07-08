@@ -1,0 +1,10 @@
+.vagrant/machines/mysqlserver/virtualbox/action_provision
+.vagrant/machines/mysqlserver/virtualbox/action_set_name
+.vagrant/machines/mysqlserver/virtualbox/box_meta
+.vagrant/machines/mysqlserver/virtualbox/creator_uid
+.vagrant/machines/mysqlserver/virtualbox/id
+.vagrant/machines/mysqlserver/virtualbox/index_uuid
+.vagrant/machines/mysqlserver/virtualbox/private_key
+.vagrant/machines/mysqlserver/virtualbox/synced_folders
+.vagrant/machines/mysqlserver/virtualbox/vagrant_cwd
+.vagrant/rgloader/loader.rb
