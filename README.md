@@ -56,5 +56,6 @@ The above command runs MySQL server in a detached mode
 The below command will delete mysqldb and delete persistent volumes
     docker-compose destroy -v
 
-
+# References
+- https://www.w3schools.com/nodejs/nodejs_mysql.asp
 
