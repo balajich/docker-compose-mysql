@@ -28,7 +28,7 @@ The above command runs MySQL server in a detached mode
 # Create schema(database)
 
     mysql> create database companydb;
-# User db , Create e, Insert,Delete, Drop  table
+# User db, Create,Insert,Delete, Drop  table
 
     # Create database
     create database companydb;
