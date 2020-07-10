@@ -6,6 +6,9 @@ Run MySQL 5.7 in docker using docker-compose
 Clone the repository
     
     git clone https://github.com/balajich/docker-compose-mysql.git
+# Video
+[![MySQL Server Quick Start using Docker Compose](https://img.youtube.com/vi/PevbdsI3_o0/0.jpg)](https://www.youtube.com/watch?v=PevbdsI3_o0)
+
 # Start virtual machine and login to machine
 This step is not necessary if you are running docker on your host machine. In this lab I will be running docker on guest CentOS 7 machine
 
